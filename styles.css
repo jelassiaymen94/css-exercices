@@ -1,55 +1,32 @@
-nav {
-	float: left;
-}
-.menu {
-	list-style-type: none;
-}
-.menu > li {
-	display: inline-block;
-	margin: 5px;
-}
-.menu > li > a {
-	display: inline-block;
-	text-decoration: none;
-	color: rgba(0, 0, 0, 0.5);
-	padding: 10px;
-	font-size: 1.5em;
-}
-.menu > li:hover {
-	border-bottom: 4px solid #39c;
-}
-.services {
-	position: relative;
+* {
+	font-family: Verdana, sans-serif;
 }
 
-.sous-menu {
-	list-style-type: none;
-	position: absolute;
-	left: 0;
+table {
+	border: 0;
+	width: 50%;
+}
+
+.table__banner {
+	column-span: 2;
+}
+
+.table__banner__img {
 	width: 100%;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.5s ease;
-	padding: 0;
-	margin: 5px 0;
 }
-.services:hover > .sous-menu {
-	max-height: 150px;
+
+.table__header {
+	width: 30%;
+	height: 200px;
+	vertical-align: top;
+	background-color: #eeeeee;
 }
-.sous-menu > li {
-	text-align: center;
-	background-color: #777;
-	line-height: 1.5em;
-	font-size: 1em;
-	padding: 5px 0;
-	border: 1px #fff solid;
+
+.table__exercice {
+	width: 70%;
+	vertical-align: top;
 }
-.sous-menu > li > a {
-	text-decoration: none;
-	display: inline-block;
-	width: 100%;
-	color: #fff;
-}
-.sous-menu > li:hover {
-	background: #39c;
+
+h2 {
+	color: #003569;
 }
