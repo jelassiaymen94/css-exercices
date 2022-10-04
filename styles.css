@@ -1,26 +1,13 @@
-.nav {
-	list-style: none;
-	padding: 10px;
-}
-
-.nav li {
-	float: left;
-	margin: 0 0 0 30px;
-	width: 100px;
-	border: 1px solid black;
-}
-
-.nav li > a {
-	font: 1em helvetica arial sans-serif;
-	line-height: 3em;
-	display: inline-block;
+.header {
 	width: 100%;
-	text-align: center;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-.nav a:hover {
+	height: 300px;
 	color: #fff;
-	background: #3498db;
+	background: url(https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 1px;
+}
+.header-title {
+	margin-top: 100px;
 }
