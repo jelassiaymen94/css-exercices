@@ -1,7 +1,19 @@
-section p {
-	color: aqua;
+#layout {
+	background: #000;
+	width: 500px;
+	text-align: center;
 }
-
-h2 {
-	background-color: bisque;
+.gauche {
+	text-align: left;
+}
+.droite {
+	text-align: right;
+}
+h2,
+p,
+button {
+	color: #fff;
+}
+button {
+	background-color: blue;
 }
