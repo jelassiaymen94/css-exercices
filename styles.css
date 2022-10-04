@@ -12,11 +12,11 @@
 
 .nav li > a {
 	font: 1em helvetica arial sans-serif;
-	line-height: 3em; /* pour augmenter la hauteur du lien (la zone cliquable) on peux utiliser en alternatif un padding   */
+	line-height: 3em;
 	display: inline-block;
 	width: 100%;
 	text-align: center;
-	text-decoration: none; /* enlever la décoration par défaut des liens */
+	text-decoration: none;
 	font-weight: bold;
 }
 
