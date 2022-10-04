@@ -1,19 +1,26 @@
-#layout {
-	background: #000;
-	width: 500px;
+.nav {
+	list-style: none;
+	padding: 10px;
+}
+
+.nav li {
+	float: left;
+	margin: 0 0 0 30px;
+	width: 100px;
+	border: 1px solid black;
+}
+
+.nav li > a {
+	font: 1em helvetica arial sans-serif;
+	line-height: 3em; /* pour augmenter la hauteur du lien (la zone cliquable) on peux utiliser en alternatif un padding   */
+	display: inline-block;
+	width: 100%;
 	text-align: center;
+	text-decoration: none; /* enlever la décoration par défaut des liens */
+	font-weight: bold;
 }
-.gauche {
-	text-align: left;
-}
-.droite {
-	text-align: right;
-}
-h2,
-p,
-button {
+
+.nav a:hover {
 	color: #fff;
-}
-button {
-	background-color: blue;
+	background: #3498db;
 }
